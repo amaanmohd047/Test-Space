@@ -1,0 +1,148 @@
+<div class="card">
+  <div class="image-box">
+    <img src="" class="member-img" />
+  </div>
+  <div class="content-box">
+    <h3 class="name"></h3>
+    <h4 class="post"></h4>
+  </div>
+</div>
+
+
+------------------
+Incharge- Er.Rohit Yadav
+President- Abhishek Chaurasiya CSE-3rd yr
+Student Advisor- Mohit Gangawar ECE-4th yr
+Vice-President- Dhananjay Singh CSE-3rd yr
+Convener-Akanksha kumari CSE-3rd yr
+Program Executive Head-Saransh Yadav CSE-3rd yr
+-------------------------
+
+Event And Student Relation Team-
+Head- Rushdiya BCA-3rd yr ---------------------
+Deputy Head- Ashish Pal CSE-2nd yr
+  Hemant Mishra BCA-2nd yr
+  Arindam Shukla CSE-AI-1st yr
+  Varalika Dwivedi CSE-1st yr
+  Saumya Singh ME-2nd yr
+  Shubham Singh BCA-2nd yr
+
+Corporate Relation Team-
+Head-Kartikey Pandey ECE-3rd yr --------------------
+Deputy Head-Samridhi Srivastava ECE-3rd yr
+  Tanya BCA-2nd yr
+  Shubham Singh CSE-3rd yr
+  Deepak Yadav CSE-AI-1st yr
+  Yuvraj Sachan BCA-1st yr
+  Mritunjay Pati Tripathi CSE-AI-2nd yr
+
+Digital Marketing Team-
+Head Akshat Kashyap EE-3rd yr -------------------------
+Deputy Head Sajjan SinghCSE-2nd yr
+  Nirnay Jaiswal CSE-AI-2nd yr
+
+Student Coordinator
+Head -Prateek Tiwari CSE-3rd yr ----------------
+Deputy Head Aarvi Shanu ECE-2nd yr
+  Akash Kumar Yadav CSE-3rd yr
+  Sachchidanand Singh CSE-2nd yr
+  Tahira Fazal EE-2nd yr
+  Abusad Ahmed CSE-3rd yr
+  Abhay Singh BCA-1st yr
+
+Web Managing Team-
+Head Saumya Singh BCA-3rd yr ---------------------------
+Deputy Head Abdullah Anzar BCA-2nd yr
+  Pragya Singh CSE-2nd yr
+  Mohd. Amaan Ansari BCA-1st yr
+  Kritika Singh BCA-1st yr
+  Harsh Sharma CSE-AI-2nd yr
+  Ishika Bhatnagar CSE-AI-1st yr
+  Chandrabhan CSE-3rd yr
+  Rashid Ansari CSE-3rd yr
+  Shivam Mishra CSE-3rd yr
+
+PR And Outreach Executive Team-
+Head- Alex Itawal CE-3rd yr ------------------
+Deputy Head-Shifat Ahtisham BCA-3rd yr
+  Janmejay Pratap Singh CE-2nd yr
+  Adarsh Tripathi CSE-3rd yr
+  Pallavi Tripathi CSE-1st yr
+  Adarsh Mishra BCA-2nd yr
+  Richika Verma BCA-1st yr
+  Praneet Rai BCA-1 st yr
+  Hariom Singh CSE-AI-2nd yr
+
+Operation Managing Team-
+Head- Utsav Baranwal CSE-3rd yr ------------------------
+Deputy Head -Rohit Dwivedi ME-3rd yr
+  Satvik Yadav EE-2nd yr
+  Sameen Ahmad CSE-3rd yr
+  Surbhi Sagar CSE-1 st yr
+  Kunal Anand ME-2 nd yr
+  Rishabh Tiwari CSE-1st yr
+  Shashwat Srivastava BCA-2nd yr
+
+Content Creator Team-
+Head- Aman Singh CSE-3rd yr ------------------
+Deputy Head-Janhavi Singh CSE-3rd yr
+  Pragya Singh CSE-2 nd yr
+  Jagriti Upadhyay CSE-AI-2nd yr
+  Nisar Ahmed BCA-1 st yr
+  Abhinav Kanaujia BCA-1st yr
+  Shaurya Bajpai ECE-1st yr
+  Aquib Khan CSE-3 rd yr
+
+Media Managing Team-
+  Social media manager Head-Somya Goyal CSE-AI-2nd yr --------
+  Deputy Head-Deepak Bansal CSE-2nd yr
+
+  Photography Head-Devansh Srivastava ME-2nd yr
+  Deputy Head-Ravi kumar Verma BCA-2nd yr
+    Shwet Patel BCA-1st yr
+
+  Video Editing Head-Janmejay Pratap Singh CE-2nd yr
+  Deputy Head-Sonam Yadav CSE-1st yr
+    Ritesh Gupta BCA-1st yr
+    Harsh Kushwaha BCA 1st yr
+
+Creative And Design Team-
+Head-Priyanshu Gupta BCA -3rd yr ---------------------
+Deputy Head-Shashank Kumar CSE-AI-2nd yr
+  Shivam Vishwakarma MCA-2nd yr
+  Pooja Ranjan CSE-3rd yr
+  Akshat Kashyap EE-3rd yr
+  Harsh Yadav BCA-1st yr
+  Sneha Kumari CSE-1st yr
+  Jasmine Rai CSE-1 st yr
+  Himali Pathak CE-3rd yr
+  Pallavi Patel ECE-1 st yr
+  Rishabh Gupta CSE-1st yr
+
+Financial And Logistic Managing Team-
+  Head-Kaushik Sharma CSE-3rd yr -------------
+  Deputy Head-Shashank Kumar CSE-AI-2nd yr
+
+Volunteer Team-
+Head- Prashant Pandit ECE-3rd yr ----------------------
+Deputy Head-Udit Dixit CSE-3rd yr
+  Prithvi Raj Gupta BCA-1st yr
+  Krishna Sonaria CSE-1st yr
+  Kreeti Singh CSE-1st yr
+  Kushagra Dixit BCA-1st yr
+  Abbas Rizvi CSE-1st yr
+  Ayush Singh BCA-1 st yr
+  Nainsee Raj ECE-2 nd yr
+  Sangam SharmaEE-2nd yr
+  Khushi Jaiswal CSE-1st yr
+  Rohit Kumar EE-2nd yr
+  Nikhil Rawat EE-2 nd yr
+  Ravi Chaurasiya CSE-1st yr
+  Shradha Saxena CSE-AI-2nd yr
+  Mohit Yadav CSE-1 st yr
+  Sonakshi Yadav CSE-1st yr
+  Shivam Yadav CSE-1st yr
+  Rahul Chaurasiya CSE-AI-1 st yr
+  Shweta Singh ECE-1st yr
+  Ritika Singh CSE-1 st yr
+  Shivangi Verma CSE-1st yr

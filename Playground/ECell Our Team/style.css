@@ -1,6 +1,13 @@
 /* Poppins Regular */
 @import url("https://fonts.googleapis.com/css2?family=Poppins&display=swap");
 
+/* Bellota Text  */
+@import url('https://fonts.googleapis.com/css2?family=Bellota+Text:wght@400;700&display=swap');
+
+/* Fontawesome cdn */
+@import url("https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css");
+
+/* Variables */
 :root {
   /* COLORS */
   --primary-white: #fff;
@@ -8,8 +15,10 @@
   --third-white: #ccc;
   --primary-grey: #333;
   --secondary-grey: #555;
+  --shadow-clr1: #d2dce9;
+  --shadow-clr2: #b1b9c7;
+  /* Fonts */
   --primary-font: "Poppins", sans-serif;
-  --shadow-color: #d2dce9;
 }
 
 * {
@@ -20,25 +29,15 @@
 
 body {
   background-color: var(--secondary-white);
-  z-index: -3;
+  
+  /* Animated Background */
+  /* background: linear-gradient(45deg, #afe9a1, #bdbdbd, #c9e2ff, #bd0b9f52);
+  background-size: 400% 400%;
+  height: auto;
+  animation: bg-gradient 15s ease infinite; */
 }
 
-/* .circle1,
-.circle2,
-.circle3 {
-  border-radius: 50%;
-} */
-
-/* .circle1 {
-  position: absolute;
-  width: 100px;
-  height: 100px;
-  z-index: -1;
-  background-color: #fffa;
-  content: "";
-  display: block; */
-/* } */
-
+/* Main Heading Section */
 .main-heading {
   margin-top: 30px;
   font-size: 45px;
@@ -88,46 +87,94 @@ body {
 
 .card {
   width: 250px;
-  height: 325px;
+  height: 350px;
   background-color: var(--primary-white);
-  border: 4px solid var(--primary-white);
+  /* border: 4px solid var(--primary-white); */
   border-radius: 25px;
   margin: 20px 30px;
   overflow: hidden;
-  box-shadow: 0.6rem 0.6rem 1.2rem var(--shadow-color);
+  box-shadow: 0.6rem 0.6rem 1.2rem var(--shadow-clr2);
 }
 
 .image-box {
   height: 250px;
+  overflow: hidden;
+  position: relative;
+}
+
+/* Icons */
+.contact {
+  text-decoration: none;
+  color: var(--primary-grey);
+  font-size: 0px;
+  margin-top: 5px;
+  margin-bottom: 10px;
+  transition: all 0.2s ease-in;
+  position: absolute;
+  top: 42%;
+  left: 42%;
 }
 
 .member-img {
   width: 100%;
   height: auto;
+  display: block;
+}
+
+.name,
+.post {
+  font-family: var(--primary-font);
+  text-align: center;
+  color: var(--primary-grey);
 }
 
 .name {
-  font-family: var(--primary-font);
   font-weight: 700;
-  text-align: center;
-  color: var(--primary-grey);
+  margin-top: 5px;
 }
 
 .post {
-  font-family: var(--primary-font);
   font-weight: 500;
-  text-align: center;
-  color: var(--primary-grey);
+  margin: 3px 15px;
 }
 
+/* Pseudo Elements */
 .card:hover {
   background-color: var(--primary-grey);
-  border: 4px solid var(--primary-grey);
+  /* border: 4px solid var(--primary-grey); */
   transform: scale(1.05, 1.05);
-  transition: all 0.3s ease;
+  transition: all 0.4s ease;
+  box-shadow: 1rem 1rem 2rem var(--shadow-clr2);
+  cursor: default;
+  height: auto;
 }
 
 .card:hover .name,
 .card:hover .post {
-  color: #ccc;
+  color: #eee;
 }
+
+.card:hover .member-img {
+  filter: blur(1px);
+}
+
+.card:hover .contact {
+  color: var(--third-white);
+  display: block;
+  font-size: 50px;
+  z-index: 2;
+}
+
+/* ------------CONCEPTS IDEAS--------------- */
+
+/* @keyframes bg-gradient {
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
+} */
