@@ -1,0 +1,205 @@
+/* font-family: 'Roboto', sans-serif; */
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700;900&display=swap');
+
+/* Font Awesome */
+@import url('https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+}
+
+.container {
+    /* width: 100%; */
+    background-color: blue;
+    margin: 1.5em;
+    margin-bottom: 0;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    flex-flow: row wrap;
+}
+
+.ecell-logo {
+    width: 12em;
+    height: auto;
+    padding-bottom: 1.5em;
+}
+
+.content {
+    width: 100%;
+    height: 100%;
+    border-top-right-radius: 12%;
+    border-top-left-radius: 12%;
+    background: #fff;
+    padding-top: 5em;
+    display: flex;
+    justify-content: center;
+    flex-flow: row wrap;
+}
+
+.thank-you {
+    width: 85%;
+    text-align: center;
+}
+
+.ty-heading {
+    font-size: 2.5em;
+    padding-bottom: 1em;
+    font-weight: 700;
+}
+
+.ty-text {
+    font-size: 1.2em;
+    padding-bottom: 0.3em;
+}
+
+.ty-details {
+    font-size: 1.2em;
+    padding-bottom: 0.3em;
+    font-weight: 700;
+}
+
+.ty-download {
+    margin-top: 1.5em;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 20px;
+    background-color: rgb(29, 29, 245);
+    font-size: 1.2em;
+    color: #ddd;
+    cursor: pointer;
+    outline: 1px solid rgb(29, 29, 245);
+    outline-offset: -1px;
+}
+
+.ty-text2 {
+    margin-top: 1em;
+    font-size: 1.2em;
+    padding-bottom: 0.3em;
+    color: #777;
+}
+
+.insights {
+    width: 85%;
+    height: auto;
+    padding: 2em;
+    background-color: #c7c7c7;
+    margin-top: 4em;
+    display: flex;
+    flex-flow: column wrap;
+    align-items: center;
+    text-align: center;
+}
+
+.ins-heading {
+    font-size: 2em;
+    font-weight: 400;
+    color: blue;
+    margin-bottom: 0.6em;
+}
+
+.ins-text {
+    font-size: 1.5em;
+    color: #777;
+}
+
+.ins-read {
+    margin-top: 1.5em;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    background-color: rgb(29, 29, 245);
+    font-size: 1em;
+    color: #ddd;
+    cursor: pointer;
+    outline: 1px solid rgb(29, 29, 245);
+    outline-offset: -1px;
+}
+
+.connect {
+    width: 85%;
+    height: auto;
+    text-align: center;
+    margin-top: 2.5em;
+    margin-bottom: 4em;
+}
+
+.cnt-heading {
+    font-size: 2.5em;
+    font-weight: 400;
+    color: blue;
+    margin-bottom: 0.6em;
+}
+
+.cnt-text {
+    margin-top: 1em;
+    margin-bottom: 1em;
+    font-size: 1.2em;
+    padding-bottom: 0.3em;
+    color: #777;
+}
+
+.web-link {
+    font-size: 2em;
+    color: rgb(35, 94, 202);
+    font-weight: 700;
+    text-decoration: none;
+}
+
+.links {
+    padding-top: 1.5em;
+    margin: auto;
+    /* width: 100%; */
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-around;
+}
+
+.connect-link {
+    color: #666;
+    font-size: 2em;
+    margin: 1em 0 1em 0;
+}
+
+.ty-download:hover, .ins-read:hover {
+    outline: 3px solid rgb(29, 29, 245);
+    outline-offset: 2px;
+    background-color: rgb(29, 29, 245);
+    transition: all 100ms ease-in;
+}
+
+.connect-link:hover {
+    font-size: 2.5em;
+    color: #333;
+    transition: all 200ms ease-in-out;
+}
+
+@media screen and (max-width: 450px) {
+
+    .ecell-logo {
+        width: 8em;
+        height: auto;
+        padding-bottom: 1em;
+    }
+
+    .content {
+        border-top-right-radius: 15% 5%;
+        border-top-left-radius: 15% 5%;    
+    }
+}
+
+
+@media screen and (max-width: 300px) {
+
+    .ty-heading {
+        font-size: 2em;
+    }
+
+    .web-link {
+        font-size: 1.3em;
+    }
+
+}
