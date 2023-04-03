@@ -43,32 +43,25 @@
     flex-flow: row wrap;
 }
 
-.thank-you {
+.join-us {
     width: 85%;
     text-align: center;
 }
 
-.ty-heading {
+.ju-heading {
     font-size: 2.5em;
     padding-bottom: 1em;
     font-weight: 500;
     color: #353535;
 }
 
-.ty-text {
-    font-size: 2em;
-    padding-bottom: 0.3em;
-    font-weight: 400;
-    color: #121212;
-}
-
-.ty-details {
+.ju-details {
     font-size: 1.2em;
     padding-bottom: 0.3em;
     font-weight: 700;
 }
 
-.ty-download {
+.ju-download {
     margin-top: 1.5em;
     padding: 10px 20px;
     border: none;
@@ -81,11 +74,12 @@
     outline-offset: -1px;
 }
 
-.ty-text2 {
+.ju-text {
     margin-top: 1em;
     font-size: 1.2em;
     padding-bottom: 0.3em;
     color: #777;
+    line-height: 1.6;
 }
 
 .insights {
@@ -113,6 +107,7 @@
     font-size: 1.2em;
     font-weight: 400;
     color: #444;
+    line-height: 1.4;
 }
 
 .connect {
@@ -161,7 +156,7 @@
     margin: 1em 0 1em 0;
 }
 
-.ty-download:hover{
+.ju-download:hover{
     outline: 3px solid rgb(29, 29, 245);
     outline-offset: 2px;
     background-color: rgb(29, 29, 245);
