@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Playground</title>
+    <style>
+        * {
+            padding: 0;
+            margin: 0;
+            box-sizing: border-box;
+        }
+        .container {
+            display: flex;
+            width: 80vw;
+            height: 100vh;
+            margin: auto;
+            background-color: #efe;
+            flex-flow: row wrap;
+            justify-content: space-evenly;
+            padding: 3rem 0;
+        }
+        button {
+            padding: 1rem 1.2rem;
+            font-size: 24px;
+            border: none;
+            border-radius: 10px;
+            background-color: rgb(33, 37, 39);
+            color: #ddd;
+            box-shadow: 2px 4px 20px #555;
+        }
+        button:hover {
+            color: #fff;
+            background-color: rgb(80, 80, 80);
+            border-radius: 25px;
+            box-shadow: 5px 10px 40px #333;
+            transition: all 0.1s ease-in-out;
+        }
+        
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="element">
+            <a href="./join_us/joinUs.html" target="_blank">
+                <button>Join Us As a Volunteer</button>
+            </a>
+        </div>
+        <div class="element">
+            <a href="./offer_Letter/offerLetter.html" target="_blank">
+                <button>Offer Letter</button>
+            </a>
+        </div>
+
+    </div>
+</body>
+</html>

@@ -13,13 +13,16 @@
 
 .container {
     /* width: 100%; */
+    width: 75vw;
     background-color: blue;
-    margin: 1.5em;
+    margin: auto;
     margin-bottom: 0;
     height: auto;
     display: flex;
     justify-content: center;
     flex-flow: row wrap;
+    box-shadow: #2279 0px 30px 60px -12px inset,
+                #757474 0px 18px 36px -18px inset;
 }
 
 .ecell-logo {
@@ -48,12 +51,15 @@
 .ty-heading {
     font-size: 2.5em;
     padding-bottom: 1em;
-    font-weight: 700;
+    font-weight: 500;
+    color: #353535;
 }
 
 .ty-text {
-    font-size: 1.2em;
+    font-size: 2em;
     padding-bottom: 0.3em;
+    font-weight: 400;
+    color: #121212;
 }
 
 .ty-details {
@@ -92,31 +98,21 @@
     flex-flow: column wrap;
     align-items: center;
     text-align: center;
+    box-shadow: #32325d32 0px 50px 100px -20px,
+                #00000096 0px 30px 60px -30px;
 }
 
 .ins-heading {
-    font-size: 2em;
-    font-weight: 400;
-    color: blue;
-    margin-bottom: 0.6em;
+    font-size: 1.4em;
+    font-weight: 500;
+    color: #333;
+    margin-top: 1em;
 }
 
 .ins-text {
-    font-size: 1.5em;
-    color: #777;
-}
-
-.ins-read {
-    margin-top: 1.5em;
-    padding: 10px 20px;
-    border: none;
-    border-radius: 5px;
-    background-color: rgb(29, 29, 245);
-    font-size: 1em;
-    color: #ddd;
-    cursor: pointer;
-    outline: 1px solid rgb(29, 29, 245);
-    outline-offset: -1px;
+    font-size: 1.2em;
+    font-weight: 400;
+    color: #444;
 }
 
 .connect {
@@ -130,7 +126,7 @@
 .cnt-heading {
     font-size: 2.5em;
     font-weight: 400;
-    color: blue;
+    color: #333;
     margin-bottom: 0.6em;
 }
 
@@ -156,6 +152,7 @@
     display: flex;
     flex-flow: row wrap;
     justify-content: space-around;
+    position: relative;
 }
 
 .connect-link {
@@ -164,7 +161,7 @@
     margin: 1em 0 1em 0;
 }
 
-.ty-download:hover, .ins-read:hover {
+.ty-download:hover{
     outline: 3px solid rgb(29, 29, 245);
     outline-offset: 2px;
     background-color: rgb(29, 29, 245);
@@ -174,10 +171,16 @@
 .connect-link:hover {
     font-size: 2.5em;
     color: #333;
+    /* transform: translate(-0.06em, -0.06em); */
     transition: all 200ms ease-in-out;
 }
 
-@media screen and (max-width: 450px) {
+
+@media screen and (max-width: 700px) {
+
+    .container {
+        width: 100%;
+    }
 
     .ecell-logo {
         width: 8em;
