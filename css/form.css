@@ -105,4 +105,8 @@ select {
   .submit-btn {
     width: 100%;
   }
+
+  .main-head {
+    font-size: 1.5rem;
+  }
 }

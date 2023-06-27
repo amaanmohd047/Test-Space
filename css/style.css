@@ -713,4 +713,8 @@ strong {
   .vm-cont {
     width: 70%;
   }
+
+  .footer .contact-us, .footer .navigation {
+    width: 200px;
+  }
 }
