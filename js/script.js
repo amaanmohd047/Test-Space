@@ -27,3 +27,7 @@ slider.addEventListener("mouseenter", function () {
 slider.addEventListener("mouseleave", function () {
   slideInterval = setInterval(autoSlide, 5000);
 });
+
+window.addEventListener('resize', function() {
+  slideWidth = slider.querySelector('.slide').offsetWidth;
+});

@@ -92,7 +92,7 @@
 }
 
 .slider-wrapper {
-  width: 90%;
+  width: 85%;
   margin: auto;
   background-color: #eee;
 }
@@ -101,17 +101,27 @@
   width: 100%;
   overflow: hidden;
   margin: auto;
+  padding-top: 35%; 
+  /* 16:9 aspect ratio (change this value based on your desired aspect ratio) */
+  /* overflow: hidden; */
+  position: relative;
 }
 
 .slider {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
   display: flex;
-  width: auto;
   transition: transform 0.5s ease-in-out;
 }
 
 .slide {
+  flex: 0 0 100%;
   width: 100%;
   flex-shrink: 0;
+  align-items: center;
 }
 
 .slide > img {
@@ -420,7 +430,7 @@ strong {
 .benefit-sec {
   width: 90%;
   height: 500px;
-  display: flex;
+  display: grid;
   align-items: center;
   grid-template-columns: repeat(4, 1fr);
   /* justify-content: space-around; */
@@ -460,7 +470,7 @@ strong {
     display: none;
   }
 
-  .nav-links > .btn {
+  .nav-links > .show {
     display: block;
   }
 
@@ -546,6 +556,7 @@ strong {
   }
 
   .benefit-sec {
+    display: flex;
     height: auto;
     flex-direction: column;
     align-items: center;
@@ -602,6 +613,16 @@ strong {
 }
 
 @media (max-width: 640px) {
+  
+  .nav-links > .show {
+    font-size: 12px;
+    padding: 0.5rem 0.75rem;
+  }
+
+  .slider-container {
+    padding-top: 50%;
+  }
+
   .block-mid {
     border: none;
     border-right: 2px solid var(---header-border);
@@ -616,6 +637,15 @@ strong {
   .roles,
   .respon {
     width: 80%;
+  }
+
+  .vision-mission {
+    height: auto;
+    flex-direction: column;
+  }
+
+  .vm-cont {
+    width: 70%;
   }
 
   .footer {
@@ -661,13 +691,16 @@ strong {
     width: 92px;
   }
 
-  .nav-links > .btn {
-    font-size: 12px;
-    padding: 0.5rem 0.75rem;
+  .slider-container {
+    padding-top: 56%;
   }
 
   .block-mid {
     border: none;
+  }
+
+  .responsibilities .heading {
+    font-size: 1.7rem;
   }
 
   .roles,
@@ -691,6 +724,16 @@ strong {
   .about-cont {
     height: 98%;
     width: 98%;
+  }
+
+  .ecell-logo,
+  .pro-logo {
+    width: 60px;
+  }
+
+  .nav-links > .show {
+    font-size: 10px;
+    padding: 0.3rem 0.5rem;
   }
 
   .about-cont > .main-txt {
