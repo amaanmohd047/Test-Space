@@ -101,7 +101,7 @@
   width: 100%;
   overflow: hidden;
   margin: auto;
-  padding-top: 35%; 
+  padding-top: 45%;
   /* 16:9 aspect ratio (change this value based on your desired aspect ratio) */
   /* overflow: hidden; */
   position: relative;
@@ -126,7 +126,7 @@
 
 .slide > img {
   width: 100%;
-  height: 480px;
+  height: auto;
 }
 
 .stats {
@@ -603,7 +603,8 @@ strong {
     width: 200px;
   }
 
-  .footer a, .footer li {
+  .footer a,
+  .footer li {
     font-size: 14px;
   }
 
@@ -613,14 +614,13 @@ strong {
 }
 
 @media (max-width: 640px) {
-  
   .nav-links > .show {
     font-size: 12px;
     padding: 0.5rem 0.75rem;
   }
 
   .slider-container {
-    padding-top: 50%;
+    padding-top: 45%;
   }
 
   .block-mid {
@@ -653,7 +653,8 @@ strong {
     height: auto;
   }
 
-  .footer .contact-us, .footer .navigation {
+  .footer .contact-us,
+  .footer .navigation {
     flex-direction: column;
     height: 225px;
     width: 50%;
@@ -670,15 +671,16 @@ strong {
     flex-direction: row;
   }
 
-  .contact-us h2, .navigation h2 { 
+  .contact-us h2,
+  .navigation h2 {
     text-align: center;
     margin-bottom: 10px;
   }
 
-  .contact-us, .navigation {
+  .contact-us,
+  .navigation {
     text-align: center;
   }
-
 }
 
 @media screen and (max-width: 480px) {
@@ -692,7 +694,7 @@ strong {
   }
 
   .slider-container {
-    padding-top: 56%;
+    padding-top: 45%;
   }
 
   .block-mid {
@@ -708,7 +710,7 @@ strong {
     height: 350px;
   }
   .responsibility > .heading {
-      font-size: 1.75rem;
+    font-size: 1.75rem;
   }
   .roles .ul,
   .respon .ul {
@@ -759,7 +761,8 @@ strong {
     width: 70%;
   }
 
-  .footer .contact-us, .footer .navigation {
+  .footer .contact-us,
+  .footer .navigation {
     width: 200px;
   }
 }
