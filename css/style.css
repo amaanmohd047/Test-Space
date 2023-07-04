@@ -102,9 +102,9 @@
   overflow: hidden;
   margin: auto;
   padding-top: 45%;
-  /* 16:9 aspect ratio (change this value based on your desired aspect ratio) */
   /* overflow: hidden; */
   position: relative;
+  background-color: #fff;
 }
 
 .slider {
