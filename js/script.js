@@ -3,7 +3,7 @@ const slide = document.querySelector(".slide");
 
 let slidePosition = 0;
 const totalSlides = slider.children.length;
-const slideWidth = slide.offsetWidth;
+let slideWidth = slide.offsetWidth;
 
 function slideNext() {
   slidePosition -= slideWidth;
@@ -28,6 +28,6 @@ slider.addEventListener("mouseleave", function () {
   slideInterval = setInterval(autoSlide, 5000);
 });
 
-window.addEventListener('resize', function() {
-  slideWidth = slider.querySelector('.slide').offsetWidth;
+window.addEventListener("resize", function () {
+  slideWidth = slider.querySelector(".slide").offsetWidth;
 });

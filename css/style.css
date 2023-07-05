@@ -184,15 +184,18 @@
   color: var(--black);
   font-weight: 300;
 }
+
 .role-respo-sec {
   display: flex;
   width: 100%;
   align-self: center;
   justify-content: center;
-  background-image: url(images/temp.png);
-  background-position: center;
-  background-size: cover;
+  /* background-image: url("../images/temp.png"); */
+  /* background-position: center; */
+  /* background-position-y: top; */
+  /* background-size: cover; */
 }
+
 .roles,
 .respon {
   display: flex;
